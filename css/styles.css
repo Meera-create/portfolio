@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
 img{
   
     display:block;
 }
+
 
 *{
     margin:0;
@@ -9,6 +13,9 @@ img{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html{
+    font-size: 16px;
+}
 /*heading*/
 
 
@@ -25,13 +32,15 @@ img{
 
 .header h1{
     align-self:center;
-    font-size:2.5rem;
+    font-size:6rem;
+    font-family:'Caveat Brush', cursive;
     
 }
 
 .header h2{
     align-self:center;
-    font-size:1.75rem;
+    font-size:3rem;
+    font-family:'Caveat Brush', cursive;
 }
 
 /*navbar*/
@@ -69,15 +78,83 @@ img{
 .me{
     display:flex;
     justify-content:space-between;
-    border:1px solid red;
+    border:5px dotted rgb(114, 21, 21);
+    height:60vh;
+    margin-top:3rem;
 
 
 }
 
 .me h3{
-    font-size:1.5rem;
+    font-size:2.5rem;
+    margin-top:8rem;
+    margin-left:20rem;
 }
 
 .me img{
     height:20rem;
+    margin-right: 25rem;
+    border-radius: 100px 200px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+/*banner*/
+
+.banner{
+    height:10rem;
+    width:100%;
+    background-color:rgb(154, 127, 179);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+}
+
+.banner >h3{
+    color:rgb(12, 49, 23);
+    font-size:2rem;
+
+} 
+
+/*old job*/
+
+.old_job{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40rem;
+    border:4px solid green;
+}
+
+.old_job img{
+    height:25rem;
+}
+
+.old_job p{
+    margin:1rem;
+    font-size:1.5rem;
+    padding:1rem;
+    border:3px solid salmon;
+}
+
+/*tech*/
+
+.tech{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40rem;
+    border:4px solid green;
+}
+
+.tech img{
+    height:25rem;
+}
+
+.tech p{
+    margin:1rem;
+    font-size:1.5rem;
+    padding:1rem;
+    border:3px solid goldenrod;
 }
