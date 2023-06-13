@@ -1,16 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
-img{
-  
-    display:block;
-}
 
+/*
+colours
+pink #fad7df
+yellow #faf8d7
+blue #f0f7fa
+*/
 
 *{
     margin:0;
     padding:0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#000000;
+}
+
+img{
+  
+    display:block;
 }
 
 html{
@@ -26,7 +34,7 @@ html{
     height:30rem;
     flex-wrap:wrap;
     flex-direction:column;
-    background-color:rgb(206, 144, 221);
+    background-color:#fad7df;
 
 }
 
@@ -60,19 +68,21 @@ html{
     justify-content: center;
     align-items: center;
     position:fixed;
-    border:3px solid aquamarine;
+    border:3px solid #e1faf3;
     width:100%;
-    background-color: lightcoral;
+    background-color: #e1faf3;
+    z-index:50;
 
 
 }
 
 .navbar li{
     padding:1.5rem;
-    border:2px solid black;
+    border:2px solid #f0f8fb;
     list-style-type: none;
     position:sticky;
     background-color: white;
+    
 
 }
 
@@ -82,11 +92,11 @@ html{
 }
 
 .navbar a:active{
-    color:purple;
+    color:#d17b88;
 }
 
 .navbar a:hover{
-    background-color:pink;
+    background-color:#fff1e6;
 }
 
 
@@ -96,17 +106,24 @@ html{
 .me{
     display:flex;
     justify-content:space-between;
-    border:5px dotted rgb(114, 21, 21);
-    height:60vh;
+    border:5px dotted #faf1d7;
+    height:25rem;
     margin-top:3rem;
 
 
 }
 
 .me h3{
-    font-size:2.5rem;
+    font-size:4rem;
     margin-top:8rem;
     margin-left:20rem;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.me h3:hover{
+    font-size:6rem;
+    color:grey;
+    margin-top:-0.5rem;
 }
 
 .me img{
@@ -122,10 +139,9 @@ html{
 .banner{
     height:30rem;
     width:100%;
-    background-image:url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80.png");
-    background-repeat:none;
-    background-position-x: center;
-    background-position-y: top;
+    /*do not change colour*/
+    background:#f0f8fb url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=410&q=80") no-repeat left center;
+    /*do not change colour*/
     display:flex;
     justify-content:center;
     align-items:center;
@@ -134,9 +150,9 @@ html{
 
 .banner h3{
     color:rgb(0, 2, 1);
-    font-size:2rem;
+    font-size:4rem;
     padding:3rem;
-    background-color:cornsilk;
+    font-family:'Caveat Brush', cursive;
 
 } 
 
@@ -146,19 +162,19 @@ html{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:40rem;
-    border:4px solid green;
+    height:20rem;
+    border:4px solid #e1faf3;;
 }
 
 .old_job img{
-    height:25rem;
+    height:18rem;
 }
 
 .old_job p{
     margin:1rem;
     font-size:1.5rem;
     padding:1rem;
-    border:3px solid salmon;
+    
 }
 
 /*tech*/
@@ -167,19 +183,19 @@ html{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:40rem;
-    border:4px solid green;
+    height:20rem;
+    border:4px solid #e1faf3;
 }
 
 .tech img{
-    height:25rem;
+    height:18rem;
 }
 
 .tech p{
     margin:1rem;
     font-size:1.5rem;
-    padding:1rem;
-    border:3px solid goldenrod;
+    padding:1.5rem;
+    
 }
 
 /*ABOUT ME*/
@@ -188,32 +204,34 @@ html{
     display:flex;
     justify-content: center;
     align-items:center;
-    height:15rem;
-    border:4px solid greenyellow;
+    height:20rem;
+    border:2px solid #e1faf3;
     top:3rem;
 }
 
 .aboutme h3{
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Caveat Brush', cursive;
 }
 
 .aboutme p{
     font-size:1rem;
 }
 
-/*learnin*/
+/*learning*/
 
 .why_tech{
     display:flex;
     justify-content: center;
     align-items:center;
-    height:15rem;
-    border:4px solid greenyellow;
+    height:20rem;
     top:3rem;
+    border:2px solid #e1faf3;
 }
 
 .why_tech h3{
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Caveat Brush', cursive;
 }
 
 .why_tech p{
@@ -224,22 +242,32 @@ html{
 /*hobbies*/
 
 .hobby{
-    height:50rem;
-    border:4px solid orangered;
+    height:70rem;
+    border:4px solid #e1faf3;
     display:flex;
     justify-content: space-around;
     align-items: center;
     flex-direction:column;
-    margin-top:40rem;
+    margin-top:5rem;
+    z-index:-10;
 }
 
 .pic img{
     width:25rem;
     
+    
 }
 
 .hobby h4{
-    font-size: 6rem;
+    font-size: 3.5rem;
+    margin-top:3rem;
+    display:relative;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.hobby img{
+    margin-top:-4rem;
+    position:relative;
 }
 
 /*rollerblading*/
@@ -268,5 +296,117 @@ html{
 
 /*plants*/
 
+.plants img{
+    border-radius:1000px 1000px;
+    width:17rem;
+    margin-left:-20rem;
+    margin-top:-10rem;
+}
 
+.plants p{
+    margin-top:2rem;
+    margin-left:-22rem;
+    position:relative;
+    display:none;
+}
+
+.plants img:hover + .hover2{
+    display:block;
+}
+
+/*painting*/
+
+.painting img{
+    border-radius:1000px 1000px;
+    width:17rem;
+    margin-top:-26rem;
+    margin-left:27rem;
+
+}
+
+.painting p{
+    position:relative;
+    margin-top:2rem;
+    margin-left:25rem;
+    display:none;
+
+}
+
+.painting img:hover + .hover3{
+    display:block;
+}
+
+/*travel*/
+
+.travel img{
+    border-radius:1000px 1000px;
+    width:17rem;
+    margin-top:-53rem;
+    margin-left:57rem;
+
+}
+
+.travel p{
+    position:relative;
+    margin-top:1rem;
+    margin-left:63rem;
+    display:none;
+
+}
+
+.travel img:hover + .hover4{
+    display:block;
+}
+
+/*projects*/
+
+.project{
+    height:20rem;
+    border:3px solid #f0f8fb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project h3{
+    font-family:'Caveat Brush', cursive;
+    font-size:4rem;
+}
+
+.project a{
+    font-family:'Caveat Brush', cursive;
+    text-decoration: none;
+}
+
+.project a:active{
+    color:black;
+}
+
+.project a:visited{
+    color:purple;
+}
+
+.project a:hover{
+    font-size: 4.5rem;
+    color:grey;
+}
+
+
+
+.contact{
+    height:10rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #f0f8fb;
+
+}
+
+.contact h3{
+    font-size: 2rem;
+    font-family:'Caveat Brush', cursive;
+
+}
 
