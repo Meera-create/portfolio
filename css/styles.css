@@ -410,3 +410,105 @@ html{
 
 }
 
+/*media queries 1600px bigger screen*/
+
+
+@media only screen and (min-width:1600px){
+
+    .header h1{
+    font-size:10rem;
+    }
+    
+    .header h2{
+    font-size:6rem;
+    }
+    
+    .banner h3{
+    font-size:6rem;
+    }
+    
+    .old_job p, .tech p{
+    font-size:2rem;
+    }
+    
+    
+    .me h3{
+    font-size:6rem;
+    
+    .me h3:hover{
+    font-size:9rem;
+    margin-top:2.75rem;
+    
+    
+    .aboutme h3, .why_tech h3{
+    margin-left:2rem;
+    font-size:4rem;
+    }
+    
+    
+    .aboutme p, .why_tech p{
+    font-size:1.5rem;
+    margin:1.5rem;
+    }
+    
+    .hobby h4{
+    font-size:6rem;
+    }
+    
+    .hobby img{
+    margin-top:1rem;
+    }
+    
+    .rollerblades img{
+    margin-top:-28rem;
+    }
+    
+    .rollerblades p{
+    width:15rem;
+    margin-left:-45rem;
+    }
+    
+    .plants img{
+    margin-top:-3rem;
+    }
+    
+    .plants p{
+    width:10rem
+    }
+    
+    .hobby{
+    height:80rem;
+    }
+    
+    
+    
+    .painting img{
+    margin-top:-40rem;
+    }
+    
+    .painting p{
+    margin-left:33rem;
+    width:20rem;
+    }
+    
+    
+    .travel img{
+    margin-top:-64rem;
+    
+    }
+    
+    
+    .travel p{
+    width:15rem;
+    margin-left:64rem;
+    }
+    
+    .project a{
+    font-size:6rem;
+    }
+    
+    .contact h3{
+    font-sze:4.5rem;
+    }
+    
+    }
