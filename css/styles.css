@@ -434,10 +434,12 @@ html{
     
     .me h3{
     font-size:6rem;
+    }
     
     .me h3:hover{
     font-size:9rem;
     margin-top:2.75rem;
+    }
     
     
     .aboutme h3, .why_tech h3{
@@ -473,7 +475,7 @@ html{
     }
     
     .plants p{
-    width:10rem
+    width:10rem;
     }
     
     .hobby{
@@ -512,3 +514,235 @@ html{
     }
     
     }
+
+    /*media queries 1024-1599px screen*/
+
+    @media only screen and (min-width:1024px) and (max-width:1599px){
+
+        navbar a{
+        font-size:1.5rem;
+        }
+        
+        .header h1{
+        font-size: 7rem;
+        }
+        
+        .header h2{
+        font-size:5rem;
+        }
+        
+        .me h3{
+        margin-left:10rem;
+        padding:4rem;
+        margin-top:2rem;
+        }
+        
+        .me img{
+        margin-left:10rem;
+        height:22rem;
+        }
+        
+        
+        .me h3:hover{
+        font-size:6rem;
+        margin-top:-2rem;
+        }
+        
+        .old_job p , .tech p{
+        font-size:1.5rem;
+        }
+        
+        .aboutme h3, .why_tech h3{
+        margin-right:2rem;
+        }
+        
+        .hobby img{
+        height:25rem;
+        }
+        
+        .rollerblades img{
+        margin-top:-21rem;
+        margin-left:-25rem;
+        height:12rem;
+        width:12rem;
+        }
+        
+        .rollerblades p{
+        font-size:1.2rem;
+        margin-left:-29rem;
+        }
+        
+        .plants img{
+        height:12rem;
+        width:12rem;
+        margin-top:-12rem;
+        margin-left:-16rem;
+        
+        }
+        
+        .plants p{
+        font-size:1.2rem;
+        margin-left:-18rem;
+        }
+        
+        
+        .painting img{
+        height:12rem;
+        width:12rem;
+        margin-top:-23rem;
+        }
+        
+        .painting p{
+        font-size:1.2rem;
+        margin-top:2rem;
+        margin-left:28rem;
+        }
+        
+        
+        .travel img{
+        height:12rem;
+        width:12rem;
+        margin-top:-52rem;
+        margin-left:53rem;
+        }
+        
+        
+        .travel p{
+        font-size:1.2rem;
+        margin-left:55rem;
+        margin-top:1rem;
+        }
+        
+        .project p {
+        font-size:1.5rem;
+        }
+        
+        .contact h4{
+        font-size:1.5rem;
+        }
+        
+        
+        }
+
+/*media queries 769-1023px*/
+@media only screen and (min-width:769px) and (max-width:1023px){
+
+
+    .me img{
+    margin-top:3rem;
+    
+    }
+    
+    .me h3{
+    margin-top:5rem;
+    margin-left:16rem;
+    margin-right:2rem;
+    }
+    
+    .banner h3{
+    margin-top:12rem;
+    }
+    
+    .old_job img{
+    margin-left:2rem;
+    }
+    
+    .tech p{
+    margin-right:2rem;
+    }
+    
+    .old_job p, .tech p{
+    font-size: 1.2rem;
+    }
+    
+    .aboutme h3, .why_tech h3{
+    margin-left:2rem;
+    }
+    
+    
+    .aboutme p, .why_tech p{
+    margin-left:2rem;
+    margin-right:3rem;
+    }
+    
+    .why_tech{
+    height:25rem;
+    }
+    
+    .hobby{
+    height:50rem;
+    }
+    
+    .hobby h4{
+    margin-top:-1rem;
+    }
+    
+    .hobby img{
+    height:20rem;
+    }
+    
+    
+    .rollerblades img{
+    margin-top:-21rem;
+    margin-left:-20rem;
+    height:10rem;
+    width:10rem;
+    }
+    
+    .rollerblades p{
+    font-size:0.9rem;
+    margin-left:-23rem;
+    }
+    
+    .plants img{
+    height:10rem;
+    width:10rem;
+    margin-left:-14rem;
+    margin-top:-5rem;
+    }
+    
+    
+    .plants p{
+    font-size:0.9rem;
+    margin-left:-20rem;
+    }
+    
+    
+    .painting img{
+    height:10rem;
+    width:10rem;
+    margin-top:-23rem;
+    margin-left:22rem;
+    }
+    
+    .painting p{
+    margin-top:2rem;
+    margin-left:20rem;
+    }
+    
+    .travel img{
+    height:10rem;
+    width:10rem;
+    margin-top:-38rem;
+    marign-left:31rem;
+    }
+    
+    .travel p{
+    margin-left:34rem;
+    margin-right:2rem;
+    margin-top:1rem;
+    }
+    
+
+    
+    }
+
+
+
+/*media queries 481-768px*/
+
+
+
+
+
+/*phone media queries 480px and below*/
