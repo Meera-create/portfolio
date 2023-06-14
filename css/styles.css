@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
 
@@ -9,733 +8,756 @@ yellow #faf8d7
 blue #f0f7fa
 */
 
-*{
-    margin:0;
-    padding:0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:#000000;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
 }
 
-img{
-  
-    display:block;
+body {
+    background-color: #faf8d7;
 }
 
-html{
+img {
+
+    display: block;
+}
+
+html {
     font-size: 16px;
 }
+
 /*heading*/
 
 
-.header{
-    display:flex;
+.header {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height:30rem;
-    flex-wrap:wrap;
-    flex-direction:column;
-    background-color:#fad7df;
+    height: 30rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #fad7df;
 
 }
 
-.header h1{
-    align-self:center;
-    font-size:6rem;
-    font-family:'Caveat Brush', cursive;
-    
+.header h1 {
+    align-self: center;
+    font-size: 6rem;
+    font-family: 'Caveat Brush', cursive;
+
 }
 
-.header h2{
-    align-self:center;
-    font-size:3rem;
-    font-family:'Caveat Brush', cursive;
+.header h1:hover {
+    color: rgb(164, 157, 207);
+}
+
+.header h2 {
+    align-self: center;
+    font-size: 3rem;
+    font-family: 'Caveat Brush', cursive;
 }
 
 /*navbar*/
 
-.nav{
-    display:flex;
-    justify-content: center;
-    align-items:center;
-    margin-top:5rem;
-    margin-bottom:5rem;
-
-}
-
-.navbar{
-    display:flex;
-    margin-top:1rem;
+.nav {
+    display: flex;
     justify-content: center;
     align-items: center;
-    position:fixed;
-    border:3px solid #e1faf3;
-    width:100%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.navbar {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    border: 3px solid #e1faf3;
+    width: 100%;
     background-color: #e1faf3;
-    z-index:50;
+    z-index: 50;
 
 
 }
 
-.navbar li{
-    padding:1.5rem;
-    border:2px solid #f0f8fb;
+.navbar li {
+    padding: 1.5rem;
+    border: 2px solid #f0f8fb;
     list-style-type: none;
-    position:sticky;
+    position: sticky;
     background-color: white;
-    
+
 
 }
 
-.navbar a{
-    text-decoration:none;
-    padding:1.5rem;
+.navbar a {
+    text-decoration: none;
+    padding: 1.5rem;
 }
 
-.navbar a:active{
-    color:#d17b88;
+.navbar a:active {
+    color: #d17b88;
 }
 
-.navbar a:hover{
-    background-color:#fff1e6;
+.navbar a:hover {
+    background-color: #fff1e6;
 }
 
 
 
 /*this is me*/
 
-.me{
-    display:flex;
-    justify-content:space-between;
-    border:5px dotted #faf1d7;
-    height:25rem;
-    margin-top:3rem;
+.me {
+    display: flex;
+    justify-content: space-between;
+    border: 5px dotted #faf1d7;
+    height: 25rem;
+    margin-top: 3rem;
 
 
 }
 
-.me h3{
-    font-size:4rem;
-    margin-top:8rem;
-    margin-left:20rem;
+.me h3 {
+    font-size: 4rem;
     font-family: 'Caveat Brush', cursive;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
-.me h3:hover{
-    font-size:6rem;
-    color:grey;
-    margin-top:-0.5rem;
-}
 
-.me img{
-    height:20rem;
-    margin-right: 25rem;
-    border-radius: 100px 200px;
-    margin-top:1rem;
-    margin-bottom:1rem;
+.me img {
+    height: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*banner*/
 
-.banner{
-    height:30rem;
-    width:100%;
+.banner {
+    height: 30rem;
+    width: 100%;
     /*do not change colour*/
-    background:#f0f8fb url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=410&q=80") no-repeat left center;
+    background: #f0f8fb url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=410&q=80") no-repeat left center;
     /*do not change colour*/
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
 }
 
-.banner h3{
-    color:rgb(0, 2, 1);
-    font-size:4rem;
-    padding:3rem;
-    font-family:'Caveat Brush', cursive;
+.banner h3 {
+    color: rgb(0, 2, 1);
+    font-size: 4rem;
+    padding: 3rem;
+    font-family: 'Caveat Brush', cursive;
 
-} 
+}
 
 /*old job*/
 
-.old_job{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:20rem;
-    border:4px solid #e1faf3;;
+.old_job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    border: 4px solid #e1faf3;
+    background-color: #fad7df;
 }
 
-.old_job img{
-    height:18rem;
+.old_job img {
+    height: 18rem;
 }
 
-.old_job p{
-    margin:1rem;
-    font-size:1.5rem;
-    padding:1rem;
-    
+.old_job p {
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+
 }
 
 /*tech*/
 
-.tech{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:20rem;
-    border:4px solid #e1faf3;
+.tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    border: 4px solid #e1faf3;
+    background-color: #fad7df;
 }
 
-.tech img{
-    height:18rem;
+.tech img {
+    height: 18rem;
 }
 
-.tech p{
-    margin:1rem;
-    font-size:1.5rem;
-    padding:1.5rem;
-    
+.tech p {
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+
 }
 
 /*ABOUT ME*/
 
-.aboutme{
-    display:flex;
+.aboutme {
+    display: flex;
     justify-content: center;
-    align-items:center;
-    height:20rem;
-    border:2px solid #e1faf3;
-    top:3rem;
+    align-items: center;
+    height: 20rem;
+    border: 2px solid #e1faf3;
+    top: 3rem;
 }
 
-.aboutme h3{
+.aboutme h3 {
     font-size: 3.5rem;
     font-family: 'Caveat Brush', cursive;
 }
 
-.aboutme p{
-    font-size:1rem;
+.aboutme p {
+    font-size: 1rem;
 }
 
 /*learning*/
 
-.why_tech{
-    display:flex;
+.why_tech {
+    display: flex;
     justify-content: center;
-    align-items:center;
-    height:20rem;
-    top:3rem;
-    border:2px solid #e1faf3;
+    align-items: center;
+    height: 20rem;
+    top: 3rem;
+    border: 2px solid #e1faf3;
 }
 
-.why_tech h3{
+.why_tech h3 {
     font-size: 3.5rem;
     font-family: 'Caveat Brush', cursive;
 }
 
-.why_tech p{
-    font-size:1rem;
+.why_tech p {
+    font-size: 1rem;
 
 }
-    
+
 /*hobbies*/
 
-.hobby{
-    height:70rem;
-    border:4px solid #e1faf3;
-    display:flex;
+.hobby {
+    height: 70rem;
+    border: 4px solid #e1faf3;
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction:column;
-    margin-top:5rem;
-    z-index:-10;
+    flex-direction: column;
+    margin-top: 5rem;
+    z-index: -10;
 }
 
-.pic img{
-    width:25rem;
-    
-    
+.pic img {
+    width: 25rem;
+
+
 }
 
-.hobby h4{
+.hobby h4 {
     font-size: 3.5rem;
-    margin-top:3rem;
-    display:relative;
+    margin-top: 3rem;
+    display: relative;
     font-family: 'Caveat Brush', cursive;
 }
 
-.hobby img{
-    margin-top:-4rem;
-    position:relative;
+.hobby img {
+    margin-top: -4rem;
+    position: relative;
 }
 
 /*rollerblading*/
 
-.rollerblades img{
-    margin-top:-30rem;
-    margin-left:-35rem;
+.rollerblades img {
+    margin-top: -30rem;
+    margin-left: -35rem;
     border-radius: 1000px 1000px;
-    width:17rem;
+    width: 17rem;
 
 }
 
-.rollerblades p{
-    height:10rem;
-    width:10rem;
-    display:block;
-    margin-top:1rem;
-    margin-left:-33rem;
-    display:none
+.rollerblades p {
+    height: 10rem;
+    width: 10rem;
+    display: block;
+    margin-top: 1rem;
+    margin-left: -33rem;
+    display: none
 }
 
-.rollerblades img:hover + .hover{
-    display:block;
+.rollerblades img:hover+.hover {
+    display: block;
 
 }
 
 /*plants*/
 
-.plants img{
-    border-radius:1000px 1000px;
-    width:17rem;
-    margin-left:-20rem;
-    margin-top:-10rem;
+.plants img {
+    border-radius: 1000px 1000px;
+    width: 17rem;
+    margin-left: -20rem;
+    margin-top: -10rem;
 }
 
-.plants p{
-    margin-top:2rem;
-    margin-left:-22rem;
-    position:relative;
-    display:none;
+.plants p {
+    margin-top: 2rem;
+    margin-left: -22rem;
+    position: relative;
+    display: none;
 }
 
-.plants img:hover + .hover2{
-    display:block;
+.plants img:hover+.hover2 {
+    display: block;
 }
 
 /*painting*/
 
-.painting img{
-    border-radius:1000px 1000px;
-    width:17rem;
-    margin-top:-26rem;
-    margin-left:27rem;
+.painting img {
+    border-radius: 1000px 1000px;
+    width: 17rem;
+    margin-top: -26rem;
+    margin-left: 27rem;
 
 }
 
-.painting p{
-    position:relative;
-    margin-top:2rem;
-    margin-left:25rem;
-    display:none;
+.painting p {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 25rem;
+    display: none;
 
 }
 
-.painting img:hover + .hover3{
-    display:block;
+.painting img:hover+.hover3 {
+    display: block;
 }
 
 /*travel*/
 
-.travel img{
-    border-radius:1000px 1000px;
-    width:17rem;
-    margin-top:-53rem;
-    margin-left:57rem;
+.travel img {
+    border-radius: 1000px 1000px;
+    width: 17rem;
+    margin-top: -53rem;
+    margin-left: 57rem;
 
 }
 
-.travel p{
-    position:relative;
-    margin-top:1rem;
-    margin-left:63rem;
-    display:none;
+.travel p {
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 63rem;
+    display: none;
 
 }
 
-.travel img:hover + .hover4{
-    display:block;
+.travel img:hover+.hover4 {
+    display: block;
 }
 
 /*projects*/
 
-.project{
-    height:20rem;
-    border:3px solid #f0f8fb;
-    display:flex;
+.project {
+    height: 20rem;
+    border: 3px solid #f0f8fb;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.project h3{
-    font-family:'Caveat Brush', cursive;
-    font-size:4rem;
+.project h3 {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 4rem;
 }
 
-.project a{
-    font-family:'Caveat Brush', cursive;
+.para {
+    text-align: center;
+
+}
+
+
+.project img {
+    height: 20rem;
+    margin: 4rem;
+}
+
+.project a {
+    font-family: 'Caveat Brush', cursive;
     text-decoration: none;
+    text-align: center;
 }
 
-.project a:active{
-    color:black;
+.project a:active {
+    color: black;
 }
 
-.project a:visited{
-    color:purple;
+.project a:visited {
+    color: purple;
 }
 
-.project a:hover{
+.project a:hover {
     font-size: 4.5rem;
-    color:grey;
+    color: grey;
 }
 
 
 
-.contact{
-    height:10rem;
-    display:flex;
+.contact {
+    height: 10rem;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:3px solid #f0f8fb;
+    border: 3px solid #f0f8fb;
+    background-color: #f0f8fb;
 
 }
 
-.contact h3{
+.contact h3 {
     font-size: 2rem;
-    font-family:'Caveat Brush', cursive;
+    font-family: 'Caveat Brush', cursive;
+
 
 }
 
 /*media queries 1600px bigger screen*/
 
 
-@media only screen and (min-width:1600px){
+@media only screen and (min-width:1600px) {
 
-    .header h1{
-    font-size:10rem;
-    }
-    
-    .header h2{
-    font-size:6rem;
-    }
-    
-    .banner h3{
-    font-size:6rem;
-    }
-    
-    .old_job p, .tech p{
-    font-size:2rem;
-    }
-    
-    
-    .me h3{
-    font-size:6rem;
-    }
-    
-    .me h3:hover{
-    font-size:9rem;
-    margin-top:2.75rem;
-    }
-    
-    
-    .aboutme h3, .why_tech h3{
-    margin-left:2rem;
-    font-size:4rem;
-    }
-    
-    
-    .aboutme p, .why_tech p{
-    font-size:1.5rem;
-    margin:1.5rem;
-    }
-    
-    .hobby h4{
-    font-size:6rem;
-    }
-    
-    .hobby img{
-    margin-top:1rem;
-    }
-    
-    .rollerblades img{
-    margin-top:-28rem;
-    }
-    
-    .rollerblades p{
-    width:15rem;
-    margin-left:-45rem;
-    }
-    
-    .plants img{
-    margin-top:-3rem;
-    }
-    
-    .plants p{
-    width:10rem;
-    }
-    
-    .hobby{
-    height:80rem;
-    }
-    
-    
-    
-    .painting img{
-    margin-top:-40rem;
-    }
-    
-    .painting p{
-    margin-left:33rem;
-    width:20rem;
-    }
-    
-    
-    .travel img{
-    margin-top:-64rem;
-    
-    }
-    
-    
-    .travel p{
-    width:15rem;
-    margin-left:64rem;
-    }
-    
-    .project a{
-    font-size:6rem;
-    }
-    
-    .contact h3{
-    font-sze:4.5rem;
-    }
-    
+    .header h1 {
+        font-size: 10rem;
     }
 
-    /*media queries 1024-1599px screen*/
+    .header h2 {
+        font-size: 6rem;
+    }
 
-    @media only screen and (min-width:1024px) and (max-width:1599px){
+    .banner h3 {
+        font-size: 6rem;
+    }
 
-        navbar a{
-        font-size:1.5rem;
-        }
-        
-        .header h1{
+    .old_job p,
+    .tech p {
+        font-size: 1.5rem;
+    }
+
+
+    .me h3 {
+        font-size: 6rem;
+    }
+
+
+
+
+    .aboutme h3,
+    .why_tech h3 {
+        margin-left: 2rem;
+        font-size: 4rem;
+    }
+
+
+    .aboutme p,
+    .why_tech p {
+        font-size: 1.5rem;
+        margin: 1.5rem;
+    }
+
+    .hobby h4 {
+        font-size: 6rem;
+    }
+
+    .hobby img {
+        margin-top: 1rem;
+    }
+
+    .rollerblades img {
+        margin-top: -28rem;
+    }
+
+    .rollerblades p {
+        width: 15rem;
+        margin-left: -45rem;
+    }
+
+    .plants img {
+        margin-top: -3rem;
+    }
+
+    .plants p {
+        width: 10rem;
+    }
+
+    .hobby {
+        height: 80rem;
+    }
+
+
+
+    .painting img {
+        margin-top: -40rem;
+    }
+
+    .painting p {
+        margin-left: 33rem;
+        width: 20rem;
+    }
+
+
+    .travel img {
+        margin-top: -64rem;
+
+    }
+
+
+    .travel p {
+        width: 15rem;
+        margin-left: 64rem;
+    }
+
+    .project a {
+        font-size: 6rem;
+    }
+
+    .contact h3 {
+        font-sze: 4.5rem;
+    }
+
+}
+
+/*media queries 1024-1599px screen*/
+
+@media only screen and (min-width:1024px) and (max-width:1599px) {
+
+    navbar a {
+        font-size: 1.5rem;
+    }
+
+    .header h1 {
         font-size: 7rem;
-        }
-        
-        .header h2{
-        font-size:5rem;
-        }
-        
-        .me h3{
-        margin-left:10rem;
-        padding:4rem;
-        margin-top:2rem;
-        }
-        
-        .me img{
-        margin-left:10rem;
-        height:22rem;
-        }
-        
-        
-        .me h3:hover{
-        font-size:6rem;
-        margin-top:-2rem;
-        }
-        
-        .old_job p , .tech p{
-        font-size:1.5rem;
-        }
-        
-        .aboutme h3, .why_tech h3{
-        margin-right:2rem;
-        }
-        
-        .hobby img{
-        height:25rem;
-        }
-        
-        .rollerblades img{
-        margin-top:-21rem;
-        margin-left:-25rem;
-        height:12rem;
-        width:12rem;
-        }
-        
-        .rollerblades p{
-        font-size:1.2rem;
-        margin-left:-29rem;
-        }
-        
-        .plants img{
-        height:12rem;
-        width:12rem;
-        margin-top:-12rem;
-        margin-left:-16rem;
-        
-        }
-        
-        .plants p{
-        font-size:1.2rem;
-        margin-left:-18rem;
-        }
-        
-        
-        .painting img{
-        height:12rem;
-        width:12rem;
-        margin-top:-23rem;
-        }
-        
-        .painting p{
-        font-size:1.2rem;
-        margin-top:2rem;
-        margin-left:28rem;
-        }
-        
-        
-        .travel img{
-        height:12rem;
-        width:12rem;
-        margin-top:-52rem;
-        margin-left:53rem;
-        }
-        
-        
-        .travel p{
-        font-size:1.2rem;
-        margin-left:55rem;
-        margin-top:1rem;
-        }
-        
-        .project p {
-        font-size:1.5rem;
-        }
-        
-        .contact h4{
-        font-size:1.5rem;
-        }
-        
-        
-        }
+    }
+
+    .header h2 {
+        font-size: 5rem;
+    }
+
+    .me h3 {
+        margin-left: 10rem;
+        padding: 4rem;
+        margin-top: 2rem;
+    }
+
+    .me img {
+        margin-left: 10rem;
+        height: 22rem;
+    }
+
+
+    .me h3:hover {
+        font-size: 6rem;
+        margin-top: -2rem;
+    }
+
+    .old_job p,
+    .tech p {
+        font-size: 1.5rem;
+    }
+
+    .aboutme h3,
+    .why_tech h3 {
+        margin-right: 1.5rem;
+    }
+
+    .hobby img {
+        height: 25rem;
+    }
+
+    .rollerblades img {
+        margin-top: -21rem;
+        margin-left: -25rem;
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .rollerblades p {
+        font-size: 1.2rem;
+        margin-left: -29rem;
+    }
+
+    .plants img {
+        height: 12rem;
+        width: 12rem;
+        margin-top: -12rem;
+        margin-left: -16rem;
+
+    }
+
+    .plants p {
+        font-size: 1.2rem;
+        margin-left: -18rem;
+    }
+
+
+    .painting img {
+        height: 12rem;
+        width: 12rem;
+        margin-top: -23rem;
+    }
+
+    .painting p {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-left: 28rem;
+    }
+
+
+    .travel img {
+        height: 12rem;
+        width: 12rem;
+        margin-top: -52rem;
+        margin-left: 53rem;
+    }
+
+
+    .travel p {
+        font-size: 1.2rem;
+        margin-left: 55rem;
+        margin-top: 1rem;
+    }
+
+    .project p {
+        font-size: 1.5rem;
+    }
+
+    .contact h4 {
+        font-size: 1.5rem;
+    }
+
+
+}
 
 /*media queries 769-1023px*/
-@media only screen and (min-width:769px) and (max-width:1023px){
+@media only screen and (min-width:769px) and (max-width:1023px) {
 
 
-    .me img{
-    margin-top:3rem;
-    
-    }
-    
-    .me h3{
-    margin-top:5rem;
-    margin-left:16rem;
-    margin-right:2rem;
-    }
-    
-    .banner h3{
-    margin-top:12rem;
-    }
-    
-    .old_job img{
-    margin-left:2rem;
-    }
-    
-    .tech p{
-    margin-right:2rem;
-    }
-    
-    .old_job p, .tech p{
-    font-size: 1.2rem;
-    }
-    
-    .aboutme h3, .why_tech h3{
-    margin-left:2rem;
-    }
-    
-    
-    .aboutme p, .why_tech p{
-    margin-left:2rem;
-    margin-right:3rem;
-    }
-    
-    .why_tech{
-    height:25rem;
-    }
-    
-    .hobby{
-    height:50rem;
-    }
-    
-    .hobby h4{
-    margin-top:-1rem;
-    }
-    
-    .hobby img{
-    height:20rem;
-    }
-    
-    
-    .rollerblades img{
-    margin-top:-21rem;
-    margin-left:-20rem;
-    height:10rem;
-    width:10rem;
-    }
-    
-    .rollerblades p{
-    font-size:0.9rem;
-    margin-left:-23rem;
-    }
-    
-    .plants img{
-    height:10rem;
-    width:10rem;
-    margin-left:-14rem;
-    margin-top:-5rem;
-    }
-    
-    
-    .plants p{
-    font-size:0.9rem;
-    margin-left:-20rem;
-    }
-    
-    
-    .painting img{
-    height:10rem;
-    width:10rem;
-    margin-top:-23rem;
-    margin-left:22rem;
-    }
-    
-    .painting p{
-    margin-top:2rem;
-    margin-left:20rem;
-    }
-    
-    .travel img{
-    height:10rem;
-    width:10rem;
-    margin-top:-38rem;
-    marign-left:31rem;
-    }
-    
-    .travel p{
-    margin-left:34rem;
-    margin-right:2rem;
-    margin-top:1rem;
-    }
-    
+    .me img {
+        margin-top: 3rem;
 
-    
     }
+
+    .me h3 {
+        margin-top: 5rem;
+        margin-left: 16rem;
+        margin-right: 2rem;
+    }
+
+    .banner h3 {
+        margin-top: 12rem;
+    }
+
+    .old_job img {
+        margin-left: 2rem;
+    }
+
+    .tech p {
+        margin-right: 2rem;
+    }
+
+    .old_job p,
+    .tech p {
+        font-size: 1.2rem;
+    }
+
+    .aboutme h3,
+    .why_tech h3 {
+        margin-left: 2rem;
+    }
+
+
+    .aboutme p,
+    .why_tech p {
+        margin-left: 2rem;
+        margin-right: 3rem;
+    }
+
+    .why_tech {
+        height: 25rem;
+    }
+
+    .hobby {
+        height: 50rem;
+    }
+
+    .hobby h4 {
+        margin-top: -1rem;
+    }
+
+    .hobby img {
+        height: 20rem;
+    }
+
+
+    .rollerblades img {
+        margin-top: -21rem;
+        margin-left: -20rem;
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .rollerblades p {
+        font-size: 0.9rem;
+        margin-left: -23rem;
+    }
+
+    .plants img {
+        height: 10rem;
+        width: 10rem;
+        margin-left: -14rem;
+        margin-top: -5rem;
+    }
+
+
+    .plants p {
+        font-size: 0.9rem;
+        margin-left: -20rem;
+    }
+
+
+    .painting img {
+        height: 10rem;
+        width: 10rem;
+        margin-top: -23rem;
+        margin-left: 22rem;
+    }
+
+    .painting p {
+        margin-top: 2rem;
+        margin-left: 20rem;
+    }
+
+    .travel img {
+        height: 10rem;
+        width: 10rem;
+        margin-top: -38rem;
+        marign-left: 31rem;
+    }
+
+    .travel p {
+        margin-left: 34rem;
+        margin-right: 2rem;
+        margin-top: 1rem;
+    }
+
+
+
+}
 
 
 
@@ -746,3 +768,125 @@ html{
 
 
 /*phone media queries 480px and below*/
+
+.navbar a {
+    padding: 0.5rem;
+}
+
+.header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 2.5rem;
+}
+
+
+.me img {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.me h3 {
+    margin-left: 2rem;
+}
+
+.boat,
+.heart,
+.holiday {
+    display: none;
+}
+
+
+.banner h3 {
+    padding: 1rem;
+    margin-top: 13rem;
+    margin-left: 4rem;
+}
+
+.old_job img, .tech img{
+    height:10rem;
+}
+
+.old_job p, .tech p{
+    font-size:1rem;
+}
+
+.aboutme h3,
+.why_tech h3 {
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.aboutme p,
+.why_tech p {
+    margin: 2rem;
+}
+
+.why_tech {
+    height: 34rem;
+}
+
+
+.arrow {
+    display: none;
+}
+
+.hobby h4 {
+    margin-top: -7rem;
+}
+
+.hobby {
+    height: 120rem;
+}
+
+.rollerblades img {
+    height: 21rem;
+    width: 21rem;
+    margin-top: -16rem;
+    margin-left: 1rem;
+    position: relative;
+  }
+
+
+.plants img {
+    width: 25rem;
+    margin-left: 2rem;
+    margin-top: -10rem;
+    position: relative;
+}
+
+.plants p {
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.painting img {
+    width: 20rem;
+    margin-top: -13rem;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.painting p {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.travel img {
+    width: 20rem;
+    margin-top: -10rem;
+    margin-left: -1rem;
+    position:relative;
+}
+
+.travel p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.project img {
+    display: none;
+}
